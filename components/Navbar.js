@@ -2,13 +2,16 @@ import React from 'react'
 import Cabecalho from './cabecalho'
 import Rodape from './Rodape'
 
-const Navbar = () => {
+const Navbar = (props) => {
+  
+
   return (
     <>
     <Cabecalho/>
     <div className='bg-secondary text-white py-3 text-center mb-3'>
-    <h1>Página Inicial</h1>
+    <h1>{props.titulo}</h1>
     </div>
+    {props.children}
      <Rodape/>
     </>
   )

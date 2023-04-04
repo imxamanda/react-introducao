@@ -6,6 +6,8 @@ import React from 'react'
 import Navbar from '../components/Navbar';
 
 const pagina2 = () => {
+
+  
   return (
     <>
     <Navbar/>
