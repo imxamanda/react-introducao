@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container } from 'react-bootstrap';
-import Cabecalho from "../components/Cabecalho"
+//import Cabecalho from "../components/Cabecalho"
 import Rodape from  "../components/Rodape"
 import React from 'react'
 import Navbar from '../components/Navbar';
