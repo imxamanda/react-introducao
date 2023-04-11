@@ -20,7 +20,10 @@ const hooks = () => {
   return (
     <Navbar titulo="Deputados">
      {deputados.map(item => (
+        <div>
         <p>{item.nome}</p>
+        <img src={item.urlFoto}></img>
+        </div>
       ))}
     </Navbar>
   )
